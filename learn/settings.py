@@ -78,12 +78,14 @@ WSGI_APPLICATION = 'learn.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'learn',
+        'NAME': 'learning',
         'USER' : 'postgres',
         'PASSWORD' : 'admin',
         'HOST' : 'localhost', 
+        'PORT' : '5432',
     }
 }
+
 
 
 # Password validation
